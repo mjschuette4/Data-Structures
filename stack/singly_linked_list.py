@@ -1,5 +1,5 @@
 class Node:
-    def __init__(self, value=None, next_node=None):
+    def __init__(self, value, next_node=None):
         #The value that the node is holding
         self.value = value
         #Reference to the next node in the linked list
